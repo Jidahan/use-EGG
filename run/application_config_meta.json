@@ -1,0 +1,265 @@
+{
+  "keys": "/Users/jh/Desktop/use-EGG/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/jh/Desktop/use-EGG/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/jh/Desktop/use-EGG/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/jh/Desktop/use-EGG/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/jh/Desktop/use-EGG/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/jh/Desktop/use-EGG/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/jh/Desktop/use-EGG/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/jh/Desktop/use-EGG/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/jh/Desktop/use-EGG/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/jh/Desktop/use-EGG/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/jh/Desktop/use-EGG/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/jh/Desktop/use-EGG/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/jh/Desktop/use-EGG/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/jh/Desktop/use-EGG/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/jh/Desktop/use-EGG/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/jh/Desktop/use-EGG/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/jh/Desktop/use-EGG/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/jh/Desktop/use-EGG/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/jh/Desktop/use-EGG/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/jh/Desktop/use-EGG/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/jh/Desktop/use-EGG/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/jh/Desktop/use-EGG/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/jh/Desktop/use-EGG/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/jh/Desktop/use-EGG/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/jh/Desktop/use-EGG/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/jh/Desktop/use-EGG/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/jh/Desktop/use-EGG/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/jh/Desktop/use-EGG/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/jh/Desktop/use-EGG/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/jh/Desktop/use-EGG/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/jh/Desktop/use-EGG/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/jh/Desktop/use-EGG/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/jh/Desktop/use-EGG/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/jh/Desktop/use-EGG/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/jh/Desktop/use-EGG/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/jh/Desktop/use-EGG/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/jh/Desktop/use-EGG/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/jh/Desktop/use-EGG/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/jh/Desktop/use-EGG/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/jh/Desktop/use-EGG/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/jh/Desktop/use-EGG/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/jh/Desktop/use-EGG/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/jh/Desktop/use-EGG/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/jh/Desktop/use-EGG/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/jh/Desktop/use-EGG/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/jh/Desktop/use-EGG/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/jh/Desktop/use-EGG/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/jh/Desktop/use-EGG/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/jh/Desktop/use-EGG/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/jh/Desktop/use-EGG/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/jh/Desktop/use-EGG/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/jh/Desktop/use-EGG/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/jh/Desktop/use-EGG/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/jh/Desktop/use-EGG/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/jh/Desktop/use-EGG/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/jh/Desktop/use-EGG/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/jh/Desktop/use-EGG/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/jh/Desktop/use-EGG/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/jh/Desktop/use-EGG/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/jh/Desktop/use-EGG/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+  "name": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "version": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "description": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "main": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+      "test": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "license": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "strict": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+      "depth": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "env": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "level": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "logging": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+      "port": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/jh/Desktop/use-EGG/node_modules/egg/config/config.default.js"
+}

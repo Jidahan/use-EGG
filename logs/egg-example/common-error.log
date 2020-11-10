@@ -1,0 +1,32 @@
+2020-11-10 12:05:33,493 ERROR 30475 nodejs.ClusterClientNoResponseError: client no response in 613911ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jh/Desktop/use-EGG/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 30475
+hostname: JidahandeMacBook-Pro.local
+
+2020-11-10 13:28:27,572 ERROR 30475 nodejs.ClusterClientNoResponseError: client no response in 4954059ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jh/Desktop/use-EGG/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 30475
+hostname: JidahandeMacBook-Pro.local
+
+2020-11-10 14:15:30,162 ERROR 30475 nodejs.ClusterClientNoResponseError: client no response in 642106ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jh/Desktop/use-EGG/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 30475
+hostname: JidahandeMacBook-Pro.local
+
+2020-11-10 16:49:15,954 ERROR 32736 nodejs.ClusterClientNoResponseError: client no response in 1619262ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jh/Desktop/use-EGG/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 32736
+hostname: JidahandeMacBook-Pro.local
+

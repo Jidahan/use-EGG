@@ -1,0 +1,63 @@
+2020-11-09 17:24:25,736 INFO 29701 [egg:logger] init all loggers with options: {"dir":"/Users/jh/Desktop/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-09 17:24:25,743 INFO 29701 [egg:core] dump config after load, 3ms
+2020-11-09 17:24:25,785 INFO 29701 [egg-watcher] Start watching: ["/Users/jh/Desktop/egg-example/app","/Users/jh/Desktop/egg-example/config","/Users/jh/Desktop/egg-example/mocks","/Users/jh/Desktop/egg-example/mocks_proxy","/Users/jh/Desktop/egg-example/app.js"]
+2020-11-09 17:24:25,785 INFO 29701 [egg-watcher] Start watching: "/Users/jh/Desktop/egg-example/app"
+2020-11-09 17:24:25,786 INFO 29701 [egg-watcher] Start watching: "/Users/jh/Desktop/egg-example/config"
+2020-11-09 17:24:25,786 INFO 29701 [egg-watcher] Start watching: "/Users/jh/Desktop/egg-example/mocks"
+2020-11-09 17:24:25,786 INFO 29701 [egg-watcher] Start watching: "/Users/jh/Desktop/egg-example/mocks_proxy"
+2020-11-09 17:24:25,786 INFO 29701 [egg-watcher] Start watching: "/Users/jh/Desktop/egg-example/app.js"
+2020-11-09 17:24:25,786 INFO 29701 [egg-watcher:agent] watcher start success
+2020-11-09 17:24:25,796 INFO 29701 [egg:core] dump config after ready, 3ms
+2020-11-09 17:24:26,375 INFO 29701 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/jh/Desktop/egg-example/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":34095071,"size":64,"blocks":0,"atimeMs":1604913866355.3171,"mtimeMs":1604913866355.3171,"ctimeMs":1604913866355.3171,"birthtimeMs":1604913866355.3171,"atime":"2020-11-09T09:24:26.355Z","mtime":"2020-11-09T09:24:26.355Z","ctime":"2020-11-09T09:24:26.355Z","birthtime":"2020-11-09T09:24:26.355Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-11-10 09:41:37,491 INFO 30475 [egg:logger] init all loggers with options: {"dir":"/Users/jh/Desktop/use-EGG/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-10 09:41:37,498 INFO 30475 [egg:core] dump config after load, 4ms
+2020-11-10 09:41:37,541 INFO 30475 [egg-watcher] Start watching: ["/Users/jh/Desktop/use-EGG/app","/Users/jh/Desktop/use-EGG/config","/Users/jh/Desktop/use-EGG/mocks","/Users/jh/Desktop/use-EGG/mocks_proxy","/Users/jh/Desktop/use-EGG/app.js"]
+2020-11-10 09:41:37,541 INFO 30475 [egg-watcher] Start watching: "/Users/jh/Desktop/use-EGG/app"
+2020-11-10 09:41:37,541 INFO 30475 [egg-watcher] Start watching: "/Users/jh/Desktop/use-EGG/config"
+2020-11-10 09:41:37,541 INFO 30475 [egg-watcher] Start watching: "/Users/jh/Desktop/use-EGG/mocks"
+2020-11-10 09:41:37,541 INFO 30475 [egg-watcher] Start watching: "/Users/jh/Desktop/use-EGG/mocks_proxy"
+2020-11-10 09:41:37,541 INFO 30475 [egg-watcher] Start watching: "/Users/jh/Desktop/use-EGG/app.js"
+2020-11-10 09:41:37,542 INFO 30475 [egg-watcher:agent] watcher start success
+2020-11-10 09:41:37,560 INFO 30475 [egg:core] dump config after ready, 3ms
+2020-11-10 12:05:33,496 ERROR 30475 nodejs.ClusterClientNoResponseError: client no response in 613911ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jh/Desktop/use-EGG/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 30475
+hostname: JidahandeMacBook-Pro.local
+
+2020-11-10 13:28:27,572 ERROR 30475 nodejs.ClusterClientNoResponseError: client no response in 4954059ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jh/Desktop/use-EGG/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 30475
+hostname: JidahandeMacBook-Pro.local
+
+2020-11-10 14:15:30,163 ERROR 30475 nodejs.ClusterClientNoResponseError: client no response in 642106ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jh/Desktop/use-EGG/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 30475
+hostname: JidahandeMacBook-Pro.local
+
+2020-11-10 15:32:55,367 INFO 32736 [egg:logger] init all loggers with options: {"dir":"/Users/jh/Desktop/use-EGG/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-10 15:32:55,373 INFO 32736 [egg:core] dump config after load, 3ms
+2020-11-10 15:32:55,447 INFO 32736 [egg-watcher] Start watching: ["/Users/jh/Desktop/use-EGG/app","/Users/jh/Desktop/use-EGG/config","/Users/jh/Desktop/use-EGG/mocks","/Users/jh/Desktop/use-EGG/mocks_proxy","/Users/jh/Desktop/use-EGG/app.js"]
+2020-11-10 15:32:55,447 INFO 32736 [egg-watcher] Start watching: "/Users/jh/Desktop/use-EGG/app"
+2020-11-10 15:32:55,447 INFO 32736 [egg-watcher] Start watching: "/Users/jh/Desktop/use-EGG/config"
+2020-11-10 15:32:55,447 INFO 32736 [egg-watcher] Start watching: "/Users/jh/Desktop/use-EGG/mocks"
+2020-11-10 15:32:55,448 INFO 32736 [egg-watcher] Start watching: "/Users/jh/Desktop/use-EGG/mocks_proxy"
+2020-11-10 15:32:55,448 INFO 32736 [egg-watcher] Start watching: "/Users/jh/Desktop/use-EGG/app.js"
+2020-11-10 15:32:55,448 INFO 32736 [egg-watcher:agent] watcher start success
+2020-11-10 15:32:55,498 INFO 32736 [egg:core] dump config after ready, 36ms
+2020-11-10 16:49:15,956 ERROR 32736 nodejs.ClusterClientNoResponseError: client no response in 1619262ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jh/Desktop/use-EGG/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 32736
+hostname: JidahandeMacBook-Pro.local
+
